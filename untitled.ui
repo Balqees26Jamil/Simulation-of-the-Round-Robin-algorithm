@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>30</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>                            Enter Process Burst Times (comma separates):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PTime">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-radius:8px;
+border-color: rgb(0, 0, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>491</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Enter Time Quantum:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Run">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Palatino Linotype</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(191, 127, 0);
+background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(199, 147, 255, 255), stop:0.289773 rgba(236, 210, 126, 255), stop:0.460227 rgba(93, 62, 128, 255), stop:0.664773 rgba(174, 159, 112, 255), stop:0.801136 rgba(142, 131, 174, 255), stop:1 rgba(219, 151, 255, 255));
+border-radius:8px;
+</string>
+   </property>
+   <property name="text">
+    <string>Run Round Robin </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/network.png</normaloff>../../Desktop/Icons/network.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Quant">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-radius:8px;
+border-color: rgb(0, 0, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>0</y>
+     <width>601</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/pexels-googledeepmind-17484970.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>291</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 255, 183), stop:0.181818 rgba(251, 250, 255, 156), stop:0.25 rgba(255, 255, 255, 160), stop:0.323864 rgba(223, 218, 255, 158), stop:0.57754 rgba(223, 218, 255, 156), stop:0.625 rgba(255, 255, 255, 158), stop:0.710227 rgba(146, 165, 255, 169), stop:0.852273 rgba(215, 214, 255, 164), stop:1 rgba(255, 255, 255, 160));
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 255, 72), stop:0.181818 rgba(251, 250, 255, 72), stop:0.25 rgba(255, 255, 255, 82), stop:0.323864 rgba(223, 218, 255, 59), stop:0.57754 rgba(223, 218, 255, 100), stop:0.625 rgba(255, 255, 255, 158), stop:0.710227 rgba(146, 165, 255, 34), stop:0.852273 rgba(215, 214, 255, 41), stop:1 rgba(255, 255, 255, 160));
+border-radius:9px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label</zorder>
+  <zorder>PTime</zorder>
+  <zorder>label_3</zorder>
+  <zorder>Run</zorder>
+  <zorder>Quant</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
